@@ -8,7 +8,7 @@ case $- in
     *) return;;
 esac
 
-if [ $1 = "color" ]; then
+if [ "$1" = color ]; then
     force_color_prompt=yes
 fi
 
